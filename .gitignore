@@ -1,0 +1,6 @@
+.doc/
+venv/
+__pycache__/
+*.pyc
+models/__pycache__/
+tests/__pycache__/

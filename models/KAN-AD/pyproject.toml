@@ -1,0 +1,11 @@
+[project]
+name = "kan-ad"
+version = "0.1.0"
+description = "KAN-AD: Time Series Anomaly Detection with Kolmogorov-Arnold Networks (ICML2025)"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["easytsad>=0.3.0.2", "torch>=2.7.0", "torchinfo>=1.8.0"]
+
+[[tool.uv.index]]
+url = "https://pypi.org/simple"
+default = true
